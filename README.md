@@ -16,4 +16,4 @@ https://www.w3schools.com/howto/howto_js_collapsible.asp
 <li>Color Coding each plant
 <li> Drag and drop the events and a button to validate if user's choices according to the conditions
 <li> 
-Go through Organising.js to see my process for scheduling the dates as well as my key notes about the schdeule order it self
+Go through Organising.txt to see my process for scheduling the dates as well as my key notes about the schdeule order it self
