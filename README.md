@@ -12,7 +12,7 @@ code and explanation
 https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_collapsible
 https://www.w3schools.com/howto/howto_js_collapsible.asp
 
-<li>image for all plants 
+<li>Image for all plants 
 <li>Color Coding each plant
 <li> Drag and drop the events and a button to validate if user's choices according to the conditions
 <li> 
