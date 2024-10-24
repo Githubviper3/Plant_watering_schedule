@@ -3,6 +3,7 @@ html,body {
   padding: 0;
   font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
   font-size: 14px;
+  background-color: #caba9c;
 }
 
 #calendar {
@@ -14,8 +15,39 @@ a.fc-daygrid-day-number,a.fc-col-header-cell-cushion{
     text-decoration: none;
     color: green
 }
+a.fc-event{
+  margin: 2px;
+}
 
 .CustomImg {
   border-radius:3px 3px;
 
 }
+:root{
+--fc-button-bg-color: #885835;
+--fc-button-active-bg-color: #8B4513;
+--fc-button-active-border-color: #8B4513;
+--fc-button-border-color: #8B4513;
+--fc-button-hover-bg-color: #8B4513;
+--fc-button-hover-border-color: #8B4513;
+--fc-button-active-bg-color: #8B4513;
+--fc-button-active-border-color: #8B4513;
+}
+
+.fc-toolbar-title {
+  color: #2E8B57; 
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.fc-header-toolbar {
+  color: white;
+  border-bottom: 2px solid #8B4513; 
+}
+
+
+.fc-day-sat, .fc-day-sun {
+  background-color: #D2B48C;
+}
+
+
