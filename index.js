@@ -106,7 +106,7 @@ document.addEventListener("DOMContentLoaded", function () {
       const event_title = arg.event.title;
       if (imageurl != undefined) {
         return {
-          html: `<p class="fc-event-main">${event_title}</p><img src="${imageurl}" width=100%>`,} }
+          html: `<img src="${imageurl}" width=100%><p class="fc-event-main">${event_title}</p>`,} }
       else {
         return {html: `<p>${event_title}</p>`}
       }
