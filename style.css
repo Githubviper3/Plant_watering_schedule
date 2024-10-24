@@ -10,7 +10,12 @@ html,body {
   margin: 40px auto;
 }
 
-a{
+a.fc-daygrid-day-number,a.fc-col-header-cell-cushion{
     text-decoration: none;
     color: green
+}
+
+.CustomImg {
+  border-radius:3px 3px;
+
 }

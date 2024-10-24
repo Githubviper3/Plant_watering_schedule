@@ -74,23 +74,22 @@ function Organise_Data() {
   console.log(organiseddata);
 }
 
-function FirstEvent() {
-  return [
+function Organise() {
+  return {event:[
     {
-      title: "Add all plants",
+      title: "Water Snake Plant",
       start: "2024-10-27",
       imageurl: "snake_plant.jpeg",
-    },
-    {
-      title: "Add all plants",
-      start: "2024-10-28",
-    },
-  ];
+    },{ title: "Water Cactus",
+      start: "2024-10-27",
+      imageurl: "cactus.jpeg",
+    } 
+  ]
 }
-
+}
 document.addEventListener("DOMContentLoaded", function () {
   var calendarEl = document.getElementById("calendar");
-  F_event = FirstEvent();
+  All_Events = Organise();
   var calendar = new FullCalendar.Calendar(calendarEl, {
     themeSystem: "bootstrap5",
     initialView: "dayGridMonth",
@@ -100,13 +99,14 @@ document.addEventListener("DOMContentLoaded", function () {
       center: "title",
       right: "dayGridMonth,timeGridWeek,timeGridDay",
     },
-    events: F_event,
+    events: All_Events["event"],
+    eventColor: "#097314",
     eventContent(arg) {
       const imageurl = arg.event.extendedProps.imageurl;
       const event_title = arg.event.title;
       if (imageurl != undefined) {
         return {
-          html: `<img src="${imageurl}" width=100%><p class="fc-event-main">${event_title}</p>`,} }
+          html: `<img class="CustomImg" src="${imageurl}" width=100%t:><p class="fc-event-main">${event_title}</p>`,} }
       else {
         return {html: `<p>${event_title}</p>`}
       }
