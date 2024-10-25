@@ -1,6 +1,8 @@
 Your task is to create an application that generates a watering schedule for the next 12 weeks for all our plants. We encourage you to be creative and present the schedule in a  way that is easy for a plant caretaker to understand. The schedule should clearly show  which plants need watering on which dates. 
 
-
+Flowchart
+The flowchart dexcribing my basic though precess is shown here
+https://githubviper3.github.io/Plant_watering_schedule/Flowchart.html
 
 Future Features
 <ul>
